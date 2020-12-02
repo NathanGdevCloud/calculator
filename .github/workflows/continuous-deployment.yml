@@ -16,6 +16,6 @@ jobs:
     - uses: "https://github.com/JamesIves/github-pages-deploy-action"
       with:
         node-version: '14'
-    - run: npm ci
+    - run: npm cd
     - run: npm run build
     - run: npm test
